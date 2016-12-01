@@ -1,0 +1,28 @@
+{
+  "name": "qr_service",
+  "version": "1.0.0",
+  "description": "QR service for transfering data from webpage to phone",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiJunpeng/AlgorithmPracticeHelperQRServer.git"
+  },
+  "keywords": [
+    "QR"
+  ],
+  "author": "Louis li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiJunpeng/AlgorithmPracticeHelperQRServer/issues"
+  },
+  "homepage": "https://github.com/LiJunpeng/AlgorithmPracticeHelperQRServer#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "redis": "^2.6.2"
+  }
+}
