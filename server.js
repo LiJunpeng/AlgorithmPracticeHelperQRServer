@@ -10,4 +10,4 @@ app.use('/', indexRouter);
 
 app.use("/api/v1", restRouter);
 
-app.listen(3001);
+app.listen(3002);
